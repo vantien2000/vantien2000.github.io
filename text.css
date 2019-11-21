@@ -168,8 +168,7 @@ html{
 	border:2px solid bold;
 	border-color:#111111;
 }
-@media only screen and (max-width: 768px){
-    .left, .right{
+
 @media only screen and(max-width: 768px){
     .col-1, .color-2{
         float: none;
