@@ -168,4 +168,8 @@ html{
 	border:2px solid bold;
 	border-color:#111111;
 }
-
+@media only screen and (max-width: 600px) {
+	.large{
+      display: none;
+  }
+}
