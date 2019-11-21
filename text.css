@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family: 'lato', sans-serif;
+	text-rendering: optimizeLegibility;
+	width: 1400px;
+}
+.logo{
+	text-align: center;
+	font-size: fantasy;
+}
+.header-menu{
+	display: flex;
+	
+	padding-left:200px;
+	padding-top:20px;
+}
+.menu{
+	display: flex;
+	margin-top: 15px;
+	margin-left: 100px;
+	list-style: none;
+	cursor: pointer;
+}
+.menu li{
+	margin-left:20px;
+	transition: 1s;
+}
+.menu li:hover{
+	color: #BAFCFF;
+}
+.banner{
+	background:url('https://cellphones.com.vn/sforum/wp-content/uploads/2018/10/hinh-nen-meo-de-thuong-37.jpg') no-repeat ;
+	background-size: cover;
+	
+	height: 400px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.row{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 50px;
+}
+.btn{
+	background: #111111;
+	padding-top: -50px;
+	text-align: center;
+	margin: 5px;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	transition: 1s;
+	border: 10px solid bold;
+	border-color: #111111;
+}
+.btn:hover{
+	background:none;
+	border: 10px solid bold;
+	border-color: #111111;
+}
+.about {
+	position: relative;
+	display: inline-flex;
+}
+.col-2 img{
+	width: 700px;
+}
+.item{
+	margin: 20px 20px 20px 50px;
+	text-decoration:underline;
+}
+.read-box{
+	position: absolute;
+	background: #111111;
+	text-align: center;
+	width: 120px;
+	height: 50px;
+	cursor: pointer;
+	top:50%;
+	left: 50%;
+	transform: translate(-540%,300%);
+	border: 10px solid bold;
+	border-color: #111111;
+}
+.text{
+	padding-left:60px;
+	line-height:30px;
+	padding-right:80px;
+	padding-top:5px;
+}
+.tooder{
+	display: flex;
+	width: 1400px;
+	background:#99CCFF;
+	color:#111111;
+}
+.col-3{
+	padding-top:50px;
+	padding-left: 50px;
+	width: 700px;
+}
+.inbox{
+	margin-top:50px;
+}
+.inbox input{
+	padding-left:5px;
+	background: none;
+	width: 400px;
+	height: 30px;
+	display:block;
+	border:2px solid bold;
+	border-color:  #111111;
+	margin-top:5px;
+	transition: 1s;
+}
+
+.inbox input:hover{
+	background: #66CCCC;
+}
+.input-4
+{
+	background: none;
+	width: 400px;
+	height: 100px;
+	margin-top:5px;
+	border:2px solid bold;
+	border-color:#111111;
+	padding-top: 2px;
+	padding-left:5px;
+	padding-bottom: 60px;
+}
+.input-4:hover{
+	background: #66CCCC;
+}
+.icon{
+	padding-left: 60px;
+	text-decoration: none;
+	
+}
+.submit {
+	display:block;
+	color:white;
+	font-size:20px;
+	background: #111111;
+	margin:5px 0px 0px 250px;
+	border:2px solid bold;
+	border-color:#111111;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	transition: 1s;
+}
+.sbm{
+	margin:5px 0px 0px 250px;
+	color: white;
+}
+.submit:hover{
+	background: none;
+	border:2px solid bold;
+	border-color:#111111;
+}
+
