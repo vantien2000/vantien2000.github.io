@@ -143,7 +143,7 @@ html{
 .icon{
 	padding-left: 60px;
 	text-decoration: none;
-	
+
 }
 .submit {
 	display:block;
@@ -168,8 +168,9 @@ html{
 	border:2px solid bold;
 	border-color:#111111;
 }
-@media only screen and (max-width: 600px) {
-	.large{
-      display: none;
-  }
+@media only screen and (max-width: 768px){
+    .left, .right{
+        float: none;
+        width: 100%;
+    }
 }
