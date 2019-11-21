@@ -170,12 +170,15 @@ html{
 }
 
 @media only screen and(max-width: 768px){
-    .col-1, .color-2{
+    .col-1, .col-2{
         float: none;
         width: 100%;
     }
-    .col-3, .color-4{
+<<<<<<< HEAD
+    .col-3, .col-4{
         float: none;
         width: 100%;
     }
+=======
+>>>>>>> c92f3019a0b59e1b4c6108e8064039688a46b1c9
 }
